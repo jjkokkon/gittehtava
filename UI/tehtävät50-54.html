@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tehtävä 38 - 44</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="UI/scripts/tehtävät50-54.js" async></script>
+    <link rel="stylesheet" href="UI/styles/tehtävät50-54.css">
+
+</head>
+
+<body>
+    <h4>Hae asiakkaita nimen, osoitteen tai asiakastyypin perusteella</h4>
+
+    <input id="nimiHaku" placeholder="Nimi"></input><br>
+    <input id="osoiteHaku" placeholder="Osoite"></input><br>
+    <select id="astyHaku">
+
+    </select>
+    <br>
+
+    <button id="haeTiedotBtn">Hae asiakkaat</button>
+    <button id="lisaaBtn">Lisää asiakas</button>
+    <button id="logoutBtn">KIRJAUDU ULOS</button>
+
+    <div id="lisaaAsiakas" title="Lisää asiakas">
+        <form id="formLisaaAsiakas">
+
+            <p>Nimi<br><input type="text" id="dNimi" name="nimi"></p>
+            <p>Osoite<br><input type="text" id="dOsoite" name="osoite"></p>
+            <p>Postinumero<br> <input type="text" id="dPostinro" name="postinro"></p>
+            <p>Postitoimipaikka<br><input type="text" id="dPostipaikka" name="postitmp"></p>
+            <p>Asiakastyyppi<br><select id="dAsTyypit" name="asty_avain"></select></p>
+
+        </form>
+    </div>
+
+
+    <table id="table"></table>
+
+
+</body>
+
+</html>
